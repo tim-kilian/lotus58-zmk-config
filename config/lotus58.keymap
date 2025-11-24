@@ -84,7 +84,7 @@
                                &trans         &trans      &trans     &trans  &trans  &trans          &trans         &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_NEXT C_PREV>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         raise_layer {
@@ -96,14 +96,14 @@
             //                     |       |       |      |      |  |      |      |      |       |
 
             bindings = <
-&trans  &kp EXCLAMATION  &kp AT_SIGN     &kp HASH      &kp DOLLAR       &kp PERCENT                  &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &kp NUMBER_1     &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4     &kp N5                       &kp NUMBER_6  &kp N7         &kp N8        &kp N9                &kp N0                 &trans
-&trans  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp LCLK    &trans  &trans  &kp PLUS      &kp NUMBER_4   &kp N5        &kp N7                &kp ASTERISK           &trans
-&trans  &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &mkp RCLK    &trans  &trans  &kp MINUS     &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3          &kp SLASH              &trans
-                                         &trans        &trans           &trans       &trans  &trans  &trans        &trans         &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN     &kp HASH      &kp DOLLAR       &kp PERCENT                  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &kp N1           &kp N2          &kp N3        &kp N4           &kp N5                       &kp N6     &kp N7         &kp N8        &kp N9                &kp N0                 &trans
+&trans  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &mkp LCLK    &trans  &trans  &kp PLUS   &kp N4         &kp N5        &kp N7                &kp ASTERISK           &trans
+&trans  &msc SCRL_LEFT   &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &mkp RCLK    &trans  &trans  &kp MINUS  &kp N1         &kp N2        &kp N3                &kp SLASH              &trans
+                                         &trans        &trans           &trans       &trans  &trans  &trans     &trans         &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
     };
 };
