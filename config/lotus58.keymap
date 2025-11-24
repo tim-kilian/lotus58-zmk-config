@@ -65,7 +65,7 @@
                            &lt 3 RET  &kp LEFT_WIN  &lt 1 SPACE  &kp SPACE   &kp ENTER        &lt 2 BACKSPACE  &kp RIGHT_ALT  &kp LGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         lower_layer {
