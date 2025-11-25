@@ -65,7 +65,7 @@
                            &lt 3 LEFT_ALT  &kp LEFT_WIN  &lt 1 SPACE  &kp SPACE   &kp ENTER        &lt 2 BACKSPACE  &kp RIGHT_ALT  &kp LGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
         };
 
         lower_layer {
@@ -84,7 +84,7 @@
                                &trans         &trans      &trans     &trans  &trans  &trans          &trans         &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>;
         };
 
         raise_layer {
